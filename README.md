@@ -33,6 +33,6 @@ This project serves both as a tool for personal financial insight and a technica
 - Data is real but will remain private. Shared files (if any) are anonymized or simulated.
 - The project is under continuous development and refactoring.
 
-## License
+⚠️ Disclaimer:
 
-This repository is currently private and not licensed for public or commercial use.
+The data used in this project reflects my real historical investments on the Egyptian Stock Exchange (EGX). However, sensitive fields (e.g., timestamps, quantities) may be adjusted or rounded for privacy. This dataset is shared for educational and technical purposes only.
