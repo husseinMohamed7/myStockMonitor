@@ -58,6 +58,6 @@ As a core part of this project, a robust data engineering process was establishe
 
 ---
 
-⚠️ Disclaimer:
+## ⚠️ Disclaimer:
 
-The data used in this project reflects my real historical investments on the Egyptian Stock Exchange (EGX). However, sensitive fields (e.g., timestamps, quantities) may be adjusted or rounded for privacy. This dataset is shared for educational and technical purposes only.
+The data used in this project reflects my real historical investments on the Egyptian Stock Exchange (EGX). However, **shared datasets (e.g., `sample_transactions.csv`, `sample_portfolio_holdings.csv`) contain synthetic (mock) data, not real financial figures, to protect privacy.** These datasets are shared for educational and technical purposes only, demonstrating the structure and type of data processed by the project.
