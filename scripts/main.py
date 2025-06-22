@@ -40,7 +40,7 @@ keywords_map = {
     "تحويل": "Withdrawal"
 }
 
-# دالة مطابقة غامضة للاسم
+# بنشوف تطابق الاسم مع ملف الاكواد بنسبة 60% وبعدها بنراجعه بالنظر
 def fuzzy_find_code(desc):
     result = process.extractOne(desc.lower(), company_names, scorer=fuzz.token_set_ratio)
     if result and result[1] >= 60:  # لو التشابه ≥ 90%
