@@ -21,6 +21,9 @@ As a core part of this project, a robust data engineering process was establishe
     * **Parsing Complex Descriptions:** Extracting structured information (e.g., share quantity, price per share, company name, instrument code) from free-form Arabic text descriptions.
     * **Standardizing Entity Names:** Harmonizing company names and transaction types to ensure consistency across the dataset, addressing variations and aliases.
     * **Handling Missing or Inconsistent Values:** Implementing logic to manage and impute any missing data points or correct inconsistencies.
+    * Example for the Cleaned Data as csv:
+   ![Logo](data/processed/Example.png)
+
 * **Data Transformation & Structuring:** Transforming the cleaned data into a well-defined, analytical structure (CSV format). This involves:
     * **Feature Engineering:** Deriving new, valuable features such as transaction `Direction` (Inflow/Outflow) and classifying `Type` (Buy, Sell, Dividend, Deposit, etc.) from the raw descriptions.
     * **Data Type Enforcement:** Ensuring that numerical fields like `CashFlow`, `Quantity`, and `pricePerShare` are correctly parsed and stored with appropriate data types for accurate calculations.
