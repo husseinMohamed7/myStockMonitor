@@ -15,6 +15,8 @@ This project serves both as a tool for personal financial insight and a technica
 As a core part of this project, a robust data engineering process was established to ensure data quality, consistency, and readiness for analysis and visualization. This involved:
 
 * **Data Ingestion & Collection:** Sourcing raw transactional data from various operational records and consolidating it into a unified format. This step focuses on capturing all financial activities, including buys, sells, dividends, fees, and cash movements.
+* Example for the Raw Data >> PDF
+![Logo](data/raw_data/Example.png)
 * **Data Cleaning & Preprocessing:** Implementing custom scripts (primarily using **Python** with **Pandas**) to clean and standardize the raw input. This includes:
     * **Parsing Complex Descriptions:** Extracting structured information (e.g., share quantity, price per share, company name, instrument code) from free-form Arabic text descriptions.
     * **Standardizing Entity Names:** Harmonizing company names and transaction types to ensure consistency across the dataset, addressing variations and aliases.
