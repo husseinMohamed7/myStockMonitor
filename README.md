@@ -1,5 +1,9 @@
 # My Stock Monitor
 
+![Logo](Dashboard/001.png)
+
+---
+
 **MyStockMonitor** is a personal project designed to analyze and track my investments in the Egyptian Stock Exchange (EGX). It helps me measure my financial performance over time, monitor portfolio growth, and evaluate investment decisions using structured data and lightweight analytics.
 
 This project serves both as a tool for personal financial insight and a technical exercise in data handling, automation, and visualization.
@@ -47,11 +51,6 @@ As a core part of this project, a robust data engineering process was establishe
 | Visualization | **Apache Superset** |
 | Development   | **Git**, **GitHub**, **Docker** |
 | Environment   | Ubuntu Linux, Neovim                    |
-
----
-## Dashboard
-
-![Logo](Dashboard/001.png)
 
 ---
 ## Notes
