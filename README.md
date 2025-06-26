@@ -49,7 +49,11 @@ As a core part of this project, a robust data engineering process was establishe
 | Environment   | Ubuntu Linux, Neovim                    |
 
 ---
+## Dashboard
 
+![Logo](Dashboard/001.png)
+
+---
 ## Notes
 
 -   This is a private project for personal financial tracking and technical development.
