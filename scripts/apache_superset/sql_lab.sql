@@ -13,8 +13,9 @@ SELECT
   (SELECT SUM(amount * price) FROM public.portfolio_status) AS current_portfolio_value,
 
   (SELECT SUM("CashFlow") FROM public.transactions WHERE "Type" = 'Fee') AS current_fee;
-
+GO
 -- net profit from the summary_financials view
 SELECT
   SUM("current_portfolio_value") -  SUM("total_withdrawals")  - SUM("total_deposits")AS net_profit
 FROM public.summary_financials;
+GO
