@@ -60,7 +60,7 @@ As a core part of this project, a robust data engineering process was establishe
 ---
 ## Notes
 
--   This is a private project for personal financial tracking and technical development.
+-   This is a project for personal financial tracking and technical development.
 -   Data is real but will remain private. Shared files (if any) are anonymized or simulated.
 -   The project is under continuous development and refactoring.
 
